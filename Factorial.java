@@ -8,4 +8,7 @@ public class Factorial {
 
         return (int) result;
     }
+    public static void main(String[] args){
+        return;
+    }
 }
