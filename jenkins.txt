@@ -5,7 +5,7 @@ pipeline {
         
                 stage('Checkout') {
             steps {
-                git branch: 'main', url:  'httpsgithub.comd-bhavanaweek5.git'
+                git branch: 'main', url:  'https://github.com/Usha-Vadde/JavaPipeline.git'
             }
         }
 
@@ -32,7 +32,7 @@ pipeline {
         }
         stage('Archive JAR') {
             steps {
-                archiveArtifacts artifacts 'factorial.jar'
+                archiveArtifacts artifacts: 'factorial.jar'
             }
         }
         
