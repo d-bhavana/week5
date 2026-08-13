@@ -5,7 +5,7 @@ pipeline {
         
                 stage('Checkout') {
             steps {
-                git branch 'main', url  'httpsgithub.comd-bhavanaweek5.git'
+                git branch: 'main', url:  'httpsgithub.comd-bhavanaweek5.git'
             }
         }
 
