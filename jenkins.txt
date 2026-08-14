@@ -5,7 +5,7 @@ pipeline {
         
                 stage('Checkout') {
             steps {
-                git branch: 'main', url:  'https://github.com/Usha-Vadde/JavaPipeline.git'
+                git branch: 'main', url:  'https://github.com/d-bhavana/week5.git'
             }
         }
 
